@@ -7,6 +7,7 @@ const outDir = resolve(__dirname, 'docs')
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'hometest',
   root,
   plugins: [react()],
   build: {
