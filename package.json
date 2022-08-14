@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && yarn copy",
+    "copy": "cp -rf src/assets/js docs/assets",
     "preview": "vite preview"
   },
   "dependencies": {
