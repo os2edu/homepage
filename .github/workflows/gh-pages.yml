@@ -5,11 +5,11 @@ on:
   #   - cron: '0 */1 * * *'
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   build:
-    name: Autograding
+    name: deploy-building
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
