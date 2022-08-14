@@ -1,7 +1,7 @@
 {
   "name": "rcore-cn-homepages",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://just21-text.github.io/hometest",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
