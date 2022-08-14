@@ -401,6 +401,13 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin-left: 30px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .header-area .main-nav .logo img {
@@ -408,6 +415,15 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header-area .main-nav .logo-key {
+  color: #8362EE;
+}
+.header-area .main-nav .logo-content {
+  color: #333;
 }
 
 .header-area .main-nav .nav {
@@ -550,7 +566,7 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .header-area.header-sticky .nav {
@@ -814,6 +830,10 @@ features
   line-height: 25px;
   position: relative;
   z-index: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .features-small-item a {
@@ -917,6 +937,7 @@ parallax & home seperator
   display: block;
   background: #fff;
   padding: 20px;
+  height: 186px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
@@ -950,7 +971,7 @@ parallax & home seperator
 .mini .mini-content .mini-box i {
   display: block;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .mini .mini-content .mini-box span {
@@ -968,7 +989,7 @@ parallax & home seperator
   color: #1e1e1e;
   letter-spacing: 0.25px;
   margin-bottom: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .counter {
@@ -1374,6 +1395,11 @@ blog
   letter-spacing: 0.26px;
   line-height: 26px;
   margin-bottom: 15px;
+  height: 52px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .blog-post-thumb .post-footer span {
@@ -1502,6 +1528,7 @@ footer .copyright {
   color: #fff;
   letter-spacing: 0.88px;
   text-transform: uppercase;
+  font-family: sans-serif;
 }
 
 @media (max-width: 991px) {
