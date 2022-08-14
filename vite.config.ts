@@ -10,6 +10,11 @@ export default defineConfig({
   base: '/homepage/',
   root,
   plugins: [react()],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src')
+    }
+  },
   build: {
     outDir,
     emptyOutDir: true,
