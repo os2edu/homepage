@@ -601,9 +601,10 @@ header
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo {
-    margin-top: 27px !important;
-    margin-left: 30px;
+  .header-area .main-nav .logo {
+    /* margin-top: 27px !important; */
+    font-size: 22px;
+    margin-left: 20px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -638,7 +639,7 @@ header
     padding: 0px !important;
     border: none !important;
     background: #fff !important;
-    color: #3B566E !important;
+    color: #3B566E;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
