@@ -93,8 +93,9 @@
 	}
 
 
-	// Page loading animation
-	$(window).on('load', function() {
+	let show = false
+	function removeCover() {
+		show = true
 		if($('.cover').length){
 			$('.cover').parallax({
 				imageSrc: $('.cover').data('image'),
@@ -109,7 +110,17 @@
 				$("#preloader").css("visibility", "hidden").fadeOut();
 			}, 300);
 		});
+
+	}
+	// Page loading animation
+	$(window).on('load', function() {
+		removeCover()
 	});
+	setTimeout(() => {
+		if(!show) {
+			removeCover()
+		}
+	}, 2500)
 
 
 	// Window Resize Mobile Menu Fix
