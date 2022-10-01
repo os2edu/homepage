@@ -582,9 +582,13 @@ header
 }
 
 @media (max-width: 1200px) {
+  .header-area .main-nav .logo {
+    font-size: 22px;
+  }
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
+    width: 86px;
   }
   .header-area .main-nav:before {
     display: none;
