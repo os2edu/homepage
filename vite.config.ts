@@ -9,6 +9,7 @@ const outDir = resolve(__dirname, 'docs')
 export default defineConfig({
   base: '/homepage/',
   root,
+  publicDir: resolve(root, '../public'),
   plugins: [react()],
   resolve: {
     alias: {

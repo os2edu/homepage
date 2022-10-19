@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && yarn copy",
+    "build": "tsc && vite build",
     "copy": "cp -rf src/assets/js docs/assets",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
