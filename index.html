@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <link rel="icon" href="/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="rcore开源操作系统">
+    <meta name="author" content="os2edu">
     <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet"> -->
 
     <title>开源操作系统社区</title>
@@ -17,7 +17,8 @@ https://templatemo.com/tm-535-softy-pinko
 -->
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.2/css/bootstrap-grid.rtl.css">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
 
@@ -28,7 +29,7 @@ https://templatemo.com/tm-535-softy-pinko
     <body>
     
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <div id="preloader" class="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
@@ -39,7 +40,7 @@ https://templatemo.com/tm-535-softy-pinko
     
     
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <header id="header-area" class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -72,6 +73,7 @@ https://templatemo.com/tm-535-softy-pinko
     </header>
     <!-- ***** Header Area End ***** -->
 
+    <main id="main-area" class="main-area">
     <!-- ***** Welcome Area Start ***** -->
     <div class="welcome-area" id="welcome">
 
@@ -79,12 +81,12 @@ https://templatemo.com/tm-535-softy-pinko
         <div class="header-text">
             <div class="container">
                 <div class="row">
-                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                    <div>
                         <h1> 探索新一代<strong>安全高性能</strong><br>操作系统的 <strong>设计与构建</strong></h1>
                         <p>面向OS教学的实验环境和讲义<br />
                             面向AIoT领域的操作系统内核
                             </p>
-                        <a href="#features" class="main-button-slider">发现更多</a>
+                        <a href="#" class="main-button-slider">发现更多</a>
                     </div>
                 </div>
             </div>
@@ -199,7 +201,7 @@ https://templatemo.com/tm-535-softy-pinko
         <div class="mini-content">
             <div class="container">
                 <div class="row">
-                    <div class="offset-lg-3 col-lg-6">
+                    <div>
                         <div class="info">
                             <h1>发展历程</h1>
                             <p>持续攀登技术的高峰，永不停歇的探索未知</p>
@@ -268,7 +270,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <h2 class="section-title">社区新闻</h2>
                     </div>
                 </div>
-                <div class="offset-lg-3 col-lg-6">
+                <div >
                     <div class="center-text">
                         <p>为开发者打造的一个纯净的技术交流、学习社区</p>
                     </div>
@@ -479,7 +481,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <h2 class="section-title">博客文章</h2>
                     </div>
                 </div>
-                <div class="offset-lg-3 col-lg-6">
+                <div>
                     <div class="center-text">
                         <p>一个面向开发者的知识分享Blog</p>
                     </div>
@@ -497,10 +499,12 @@ https://templatemo.com/tm-535-softy-pinko
                             <h3>
                                 <a href="http://rcore-os.cn/blog/2022/08/05/os-training-camp-stage1-report-by-wanderya/">2022 年开源操作系统训练营 — wanderya</a>
                             </h3>
-                            <div class="text">
-                                本次总结为训练营第一阶段总结报告。我主要分为以下两个部分进行总结：rust语言学习、rCore实验。
+                            <div class="blog-content-summary">
+                                <div class="text">
+                                    本次总结为训练营第一阶段总结报告。我主要分为以下两个部分进行总结：rust语言学习、rCore实验。
+                                </div>
+                                <a href="http://rcore-os.cn/blog/2022/08/05/os-training-camp-stage1-report-by-wanderya/#more" class="main-button">阅读更多</a>
                             </div>
-                            <a href="http://rcore-os.cn/blog/2022/08/05/os-training-camp-stage1-report-by-wanderya/#more" class="main-button">阅读更多</a>
                         </div>
                     </div>
                 </div>
@@ -513,10 +517,12 @@ https://templatemo.com/tm-535-softy-pinko
                             <h3>
                                 <a href="http://rcore-os.cn/blog/2022/08/05/%E7%BD%97%E5%AD%90%E5%81%A5%E7%9A%84blog/">罗子健的blog</a>
                             </h3>
-                            <div class="text">
-                                完成了rustlings，之前学过rust，但是一直没有用它。这次算得上是实际运用了。rustlang与其他语言的不同之处，主要在于它独特的特权机制，提供了除gc和手动管理内存之外的第三种方案。
+                            <div class="blog-content-summary">
+                                <div class="text">
+                                    完成了rustlings，之前学过rust，但是一直没有用它。这次算得上是实际运用了。rustlang与其他语言的不同之处，主要在于它独特的特权机制，提供了除gc和手动管理内存之外的第三种方案。
+                                </div>
+                                <a href="http://rcore-os.cn/blog/2022/08/05/%E7%BD%97%E5%AD%90%E5%81%A5%E7%9A%84blog/#more" class="main-button">阅读更多</a>
                             </div>
-                            <a href="http://rcore-os.cn/blog/2022/08/05/%E7%BD%97%E5%AD%90%E5%81%A5%E7%9A%84blog/#more" class="main-button">阅读更多</a>
                         </div>
                     </div>
                 </div>
@@ -529,10 +535,12 @@ https://templatemo.com/tm-535-softy-pinko
                             <h3>
                                 <a href="http://rcore-os.cn/blog/2022/08/02/rCoreCamp2022%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%E6%8A%A5%E5%91%8A-werifu/">rCoreCamp2022第一阶段报告-werifu</a>
                             </h3>
-                            <div class="text">
-                                其实大多写在日记或者博客里了，这个总结文档可能很多是从日志里摘抄的，选择我一个月学习后觉得最精华的部分。
+                            <div class="blog-content-summary">
+                                <div class="text">
+                                    其实大多写在日记或者博客里了，这个总结文档可能很多是从日志里摘抄的，选择我一个月学习后觉得最精华的部分。
+                                </div>
+                                <a href="http://rcore-os.cn/blog/2022/08/02/rCoreCamp2022%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%E6%8A%A5%E5%91%8A-werifu/#more" class="main-button">阅读更多</a>
                             </div>
-                            <a href="http://rcore-os.cn/blog/2022/08/02/rCoreCamp2022%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%E6%8A%A5%E5%91%8A-werifu/#more" class="main-button">阅读更多</a>
                         </div>
                     </div>
                 </div>
@@ -551,7 +559,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <h2 class="section-title">社区建设</h2>
                     </div>
                 </div>
-                <div class="offset-lg-3 col-lg-6">
+                <div>
                     <div class="center-text">
                         <p>请联系我们，加入到 rCore-OS 开源社区里，贡献力量！</p>
                     </div>
@@ -629,19 +637,7 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
         </div>
     </footer>
-    
-    <!-- jQuery -->
-    <script src="/assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="/assets/js/popper.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
-    <script src="/assets/js/scrollreveal.min.js"></script>
-    <script src="/assets/js/waypoints.min.js"></script>
-    <script src="/assets/js/jquery.counterup.min.js"></script>
-    <script src="/assets/js/imgfix.min.js"></script> 
+    </main>
     
     <!-- Global Init -->
     <script src="/assets/js/custom.js"></script>
