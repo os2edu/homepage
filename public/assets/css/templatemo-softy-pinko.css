@@ -27,7 +27,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"); */
 /* 
 ---------------------------------------------
 reset
@@ -145,6 +145,10 @@ fieldset {
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .left-heading.light .section-title {
@@ -688,6 +692,7 @@ welcome
   align-items: center;
   justify-content: center;
   background-image: url(../images/banner-bg.png);
+  /* background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
