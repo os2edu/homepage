@@ -421,7 +421,6 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
   font-weight: 700;
   font-style: normal;
   font-size: 27px;
@@ -450,7 +449,6 @@ header
   float: right;
   margin-top: 27px;
   margin-left: 0px;
-  margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
