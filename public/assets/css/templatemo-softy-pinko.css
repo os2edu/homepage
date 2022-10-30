@@ -428,7 +428,6 @@ header
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
 
 .header-area .main-nav .logo img {
@@ -677,6 +676,57 @@ header
 @media (min-width: 992px) {
   .header-area .main-nav .nav {
     display: flex !important;
+  }
+
+  .header-area-pc {
+    overflow: hidden;
+    width: 100vw;
+  }
+  .header-area-pc.header-sticky {
+    min-height: unset;
+    position: unset;
+    top: 0;
+    height: 56px;
+
+  }
+
+  .header-area-pc .container {
+    max-width: unset;
+    padding: 0;
+  }
+  .header-area-pc .main-nav {
+    min-height: unset;
+    height: 56px;
+    border-radius: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+
+  }
+
+  .header-area-pc .main-nav .logo {
+    gap: 4px;
+  }
+
+  .header-area-pc .main-nav .logo img {
+    width: 46px;
+    height: 46px;
+
+  }
+  .header-area-pc .main-nav .logo-content {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .header-area-pc.header-sticky .logo {
+    margin-top: 0;
+  }
+  .header-area-pc.header-sticky .nav {
+    margin-top: 0 !important;
+  }
+  .header-area .main-nav .nav li {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
