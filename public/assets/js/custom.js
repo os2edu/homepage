@@ -40,7 +40,6 @@
 
   const header = document.getElementById('header-area')
   const main = document.getElementById('main-area')
-  console.log(main)
   main.addEventListener('scroll', function () {
     let top = 30 - main.scrollTop
     if (top < 0) {

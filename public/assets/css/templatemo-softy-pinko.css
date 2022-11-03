@@ -460,7 +460,7 @@ header
 .header-area .main-nav .nav li {
   padding-left: 20px;
   padding-right: 20px;
-  width: 100px;
+  min-width: 100px;
   text-align: center;
 }
 
