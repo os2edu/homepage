@@ -384,7 +384,6 @@ main
 --------------------------------------------- 
 */
 .main-area {
-  height: 100vh;
   overflow: auto;
 }
 
@@ -678,7 +677,6 @@ header
 
   .header-area-pc {
     overflow: hidden;
-    width: 100vw;
   }
   .header-area-pc.header-sticky {
     min-height: unset;
